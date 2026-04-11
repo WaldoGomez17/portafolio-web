@@ -1,0 +1,129 @@
+body {
+    background-color: #0f1226;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.encabezado {
+    max-width: 1000px;
+    margin: 0 auto 25px auto;
+    text-align: center;
+    background: linear-gradient(135deg, #6a5cff, #25b7e8);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    background-color: #181d39;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.sobre-mi p,
+.aprendiendo p,
+.contacto p,
+.formacion p {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.contenedor-habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.habilidades .card {
+    background-color: #23294d;
+    border: 1px solid #38406d;
+    border-radius: 20px;
+    padding: 10px 16px;
+    font-size: 14px;
+    width: auto;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.proyectos .card {
+    background-color: #23294d;
+    padding: 20px;
+    border-radius: 12px;
+    width: 230px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.proyectos .card:hover {
+    transform: translateY(-5px);
+}
+
+.formacion p {
+    text-align: center;
+}
+
+.experiencia .trabajo {
+    background-color: #23294d;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 15px;
+}
+
+.experiencia h3 {
+    margin: 0 0 8px 0;
+    color: #25b7e8;
+    text-align: left;
+}
+
+.experiencia p {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #25b7e8;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+}
